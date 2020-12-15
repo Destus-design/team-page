@@ -42,7 +42,7 @@ figure{
     position: relative;
 display :flex; 
 padding : 10px; 
-align-items: left; 
+
 }
 h2>p{
      width: 200px;
@@ -67,7 +67,7 @@ img{
     position: absolute;
     right: 0px;
     top: 30px;
-    text-align: left;
+    text-align: right ;
     transform: rotate(90deg);
     text-transform: uppercase;
 
