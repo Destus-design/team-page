@@ -112,6 +112,7 @@ padding :1px; }
     .team-members{
 width : 100%;
         display: grid;
+grid-gap: 0;
         grid-template-columns: repeat(2, 1fr)
     }
     figure:nth-child(2),figure:nth-child(5){
