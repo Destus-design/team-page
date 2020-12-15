@@ -40,6 +40,8 @@ h2{
 }
 figure{
     position: relative;
+display :flex; 
+padding : 10px; 
 }
 h2>p{
      width: 200px;
