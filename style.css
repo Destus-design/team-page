@@ -128,6 +128,7 @@ div.title{
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
+position : relative; 
     right: 0px;
     top: 30px;
     text-align: right ;
