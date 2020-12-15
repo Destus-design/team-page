@@ -40,7 +40,7 @@ h2{
 }
 figure{
     position: relative;
-display :flex; 
+display : inline ; 
 padding : 10px; 
 
 }
