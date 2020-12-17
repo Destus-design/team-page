@@ -5,7 +5,7 @@
 }
 body{
     background-color: #fafafa;
-    padding: 50px;
+    padding: 30px;
     margin: 30px;
 }
 div.header{
@@ -40,7 +40,6 @@ h2{
 }
 figure{
     position: relative;
-display : inline ; 
 padding : 10px; 
 
 }
@@ -55,18 +54,27 @@ h2>p{
 }
 img{
     max-width: 100%;
-    
     height: 500px;
 }
-.title{
+
+	.ab {
+		float: right;
+		width:  5%;
+	}
+	
+	.aa {
+		
+		width:95%;
+		margin-right: 10px;
+	}
+.title1,.title2,.title3,.title4,.title5,.title6{
     font-family: PT Serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
-    position: absolute;
+    position: relativ;
     right: 0px;
-    top: 30px;
+    top: 0;
     text-align: right ;
     transform: rotate(90deg);
     text-transform: uppercase;
@@ -85,7 +93,7 @@ figcaption{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    padding-top: 50px;
+    
 }
 figure:nth-child(2),figure:nth-child(5){
     padding-top: 40px;
@@ -101,21 +109,24 @@ footer>p{
 }
 @media only screen and (max-width:800px){
 body{
-margin : 0;
-padding :1px; }
+        margin : 0;
+        padding :1px; }
+		
     div.header{
         display: grid;
-        grid-gap: 20px;
+        padding-bottom: 10px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 75px);
     }
     .team-members{
-width : 100%;
+
         display: grid;
-grid-gap: 0;
+		padding:0;
+		margin:0;
+        grid-gap: 0;
         grid-template-columns: repeat(2, 1fr)
     }
-    figure:nth-child(2),figure:nth-child(5){
+    figure:nth-child(1),figure:nth-child(3),figure:nth-child(5){
         padding-top: 0;
     }
     figure:nth-child(even){
@@ -124,15 +135,31 @@ grid-gap: 0;
     .align-left{
         margin-left: 0;
     }
-div.title{
+	figure {
+		position: relative;
+		margin-top:10px;
+	}
+	.ab {
+		float: right;
+		width:  5%;
+	}
+	
+	.aa {
+		
+		width:85%;
+		margin-right: 10px;
+	}
+	.title1,.title2,.title3,.title4,.title5,.title6{
     font-family: PT Serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-position : relative; 
+    position: relative;
     right: 0px;
-    top: 0px;
+    top: 0;
     text-align: right ;
     transform: rotate(90deg);
     text-transform: uppercase;
+	}
+	
 }
